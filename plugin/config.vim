@@ -1,0 +1,15 @@
+set noexpandtab
+set tabstop=4
+set shiftwidth=4
+set cc=80
+set nu
+set cursorline
+let NERDTreeShowHidden=1
+iunmap $1
+iunmap $2
+iunmap $3
+iunmap $4
+iunmap $q
+iunmap $e
+iunmap $t
+let g:indent_guides_enable_on_vim_startup=1
