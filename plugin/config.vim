@@ -9,6 +9,7 @@ colors molokai
 let mapleader=","
 set ignorecase
 set smartcase
+set hlsearch
 
 " NERD Tree
 let NERDTreeShowHidden=1
