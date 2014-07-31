@@ -10,6 +10,7 @@ let mapleader=","
 set ignorecase
 set smartcase
 set hlsearch
+set wildmenu
 
 " NERD Tree
 let NERDTreeShowHidden=1
@@ -20,6 +21,9 @@ let g:indent_guides_enable_on_vim_startup=1
 " Unite
 noremap <Leader>f :Unite file_rec<CR>
 noremap <Leader>b :Unite buffer<CR>
+call unite#custom#profile('default', 'context', {
+\	'start_insert': 1
+\})
 
 " Taglist
 let Tlist_Sort_Type = "name"
