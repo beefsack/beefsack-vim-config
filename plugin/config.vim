@@ -11,6 +11,7 @@ set ignorecase
 set smartcase
 set hlsearch
 set wildmenu
+set backupdir=~/tmp
 
 " NERD Tree
 let NERDTreeShowHidden=1
