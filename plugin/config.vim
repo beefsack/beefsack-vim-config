@@ -13,6 +13,10 @@ set hlsearch
 set wildmenu
 set backupdir=~/tmp
 set autoread
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10
+
+" airline
+let g:airline#extensions#tabline#enabled = 1
 
 " NERD Tree
 let NERDTreeShowHidden=1
