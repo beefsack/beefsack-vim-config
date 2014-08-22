@@ -14,7 +14,9 @@ set wildmenu
 set backupdir=~/tmp
 set autoread
 set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 10
+set guioptions-=m
 set guioptions-=T
+set guioptions-=L
 
 " airline
 let g:airline#extensions#tabline#enabled = 1
