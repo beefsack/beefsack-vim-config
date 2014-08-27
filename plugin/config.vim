@@ -42,3 +42,6 @@ let Tlist_Show_One_File = 1
 let Tlist_Close_On_Select = 1
 let tlist_php_settings='php;f:function'
 noremap <Leader>t :TlistOpen<CR>
+
+" binds
+noremap <Leader>/ :let @/=''<CR>
