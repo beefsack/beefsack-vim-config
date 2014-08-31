@@ -22,9 +22,6 @@ set guioptions-=L
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
-" NERD Tree
-let NERDTreeShowHidden=1
-
 " Indent Guides
 let g:indent_guides_enable_on_vim_startup=1
 
