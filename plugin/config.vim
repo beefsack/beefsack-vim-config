@@ -18,6 +18,9 @@ set guioptions-=m
 set guioptions-=T
 set guioptions-=L
 
+" NERDTree
+let g:NERDTreeChDirMode=2
+
 " airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
