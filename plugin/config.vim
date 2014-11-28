@@ -36,12 +36,7 @@ call unite#custom#profile('default', 'context', {
 \})
 
 " Taglist
-let Tlist_Sort_Type = "name"
-let Tlist_Use_Right_Window = 1
-let Tlist_Show_One_File = 1
-let Tlist_Close_On_Select = 1
-let tlist_php_settings='php;f:function'
-noremap <Leader>t :TlistOpen<CR>
+noremap <Leader>t :TagbarToggle<CR>
 
 " binds
 noremap <Leader>/ :let @/=''<CR>
