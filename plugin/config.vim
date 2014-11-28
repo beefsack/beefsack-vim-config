@@ -35,7 +35,9 @@ call unite#custom#profile('default', 'context', {
 \	'start_insert': 1
 \})
 
-" Taglist
+" Tagbar
+let g:tagbar_autofocus=1
+let g:tagbar_autoclose=1
 noremap <Leader>t :TagbarToggle<CR>
 
 " binds
