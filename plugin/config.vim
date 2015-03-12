@@ -42,3 +42,7 @@ noremap <Leader>/ :let @/=''<CR>
 
 " VimFiler
 let g:vimfiler_as_default_explorer = 1
+
+" Racer
+set hidden
+let g:racer_cmd = ~/.vim/bundle/racer/target/release/racer
