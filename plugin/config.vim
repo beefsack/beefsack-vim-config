@@ -26,7 +26,7 @@ let g:airline_powerline_fonts = 1
 let g:indent_guides_enable_on_vim_startup=1
 
 " Unite
-noremap <Leader>f :Unite file_rec<CR>
+noremap <Leader>f :Unite file_rec/async<CR>
 noremap <Leader>b :Unite neomru<CR>
 call unite#custom#profile('default', 'context', {
 \	'start_insert': 1
