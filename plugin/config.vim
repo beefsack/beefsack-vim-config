@@ -39,6 +39,8 @@ noremap <Leader>/ :let @/=''<CR>
 
 " VimFiler
 let g:vimfiler_as_default_explorer = 1
+noremap <Leader>v :VimFilerCurrentDir<CR>
+noremap <Leader>c :VimFilerBufferDir<CR>
 
 " Racer
 set hidden
