@@ -36,6 +36,7 @@ call unite#custom#profile('default', 'context', {
 
 " binds
 noremap <Leader>/ :let @/=''<CR>
+noremap <Leader>d :setl bufhidden=delete \| bnext<CR>
 
 " VimFiler
 let g:vimfiler_as_default_explorer = 1
