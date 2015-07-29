@@ -33,6 +33,7 @@ noremap <Leader>t :Unite outline<CR>
 call unite#custom#profile('default', 'context', {
 \	'start_insert': 1
 \})
+call unite#filters#sorter_default#use(['sorter_length'])
 
 " binds
 noremap <Leader>/ :let @/=''<CR>
