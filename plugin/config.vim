@@ -43,3 +43,8 @@ nnoremap <Space> @q
 let g:vimfiler_as_default_explorer = 1
 noremap <Leader>v :VimFilerCurrentDir<CR>
 noremap <Leader>c :VimFilerBufferDir<CR>
+
+" hh_format
+if executable("hh_format")
+	autocmd BufWritePost *.php,*.hh silent !hh_format -i %
+endif
