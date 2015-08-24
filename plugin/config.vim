@@ -20,6 +20,7 @@ set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 10
 set guioptions-=m
 set guioptions-=T
 set guioptions-=L
+set timeoutlen=1000 ttimeoutlen=0
 
 " airline
 let g:airline#extensions#tabline#enabled = 1
