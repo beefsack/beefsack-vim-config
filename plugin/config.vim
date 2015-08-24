@@ -6,6 +6,7 @@ set shiftwidth=4
 set cc=80
 set nu
 set cursorline
+set t_Co=256
 colors molokai
 let mapleader=","
 set ignorecase
