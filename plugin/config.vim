@@ -16,7 +16,7 @@ set hlsearch
 set wildmenu
 set backupdir=~/tmp
 set autoread
-set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 10
+set guifont=Roboto\ Mono\ Medium\ 11
 set guioptions-=m
 set guioptions-=T
 set guioptions-=L
