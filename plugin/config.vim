@@ -52,3 +52,6 @@ noremap <Leader>c :VimFilerBufferDir<CR>
 if executable("hh_format")
 	autocmd BufWritePost *.php,*.hh silent !hh_format -i %
 endif
+
+" jsx
+let g:jsx_ext_required = 0
