@@ -55,3 +55,7 @@ endif
 
 " jsx
 let g:jsx_ext_required = 0
+
+" rustfmt
+let g:formatdef_rustfmt = '"rustfmt"'
+let g:formatters_rust = ['rustfmt']
