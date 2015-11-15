@@ -1,1 +1,1 @@
-au BufWrite * :Autoformat
+au BufWrite * :RustFmt
