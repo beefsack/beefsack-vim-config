@@ -55,3 +55,6 @@ endif
 
 " jsx
 let g:jsx_ext_required = 0
+
+" rust
+let g:rustfmt_autosave = 1
