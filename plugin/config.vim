@@ -58,3 +58,8 @@ let g:jsx_ext_required = 0
 
 " rust
 let g:rustfmt_autosave = 1
+
+" YouCompleteMe
+let g:ycm_rust_src_path = $RUST_SRC_PATH
+nnoremap <Leader>] :YcmCompleter GoTo<CR>
+set completeopt-=preview
