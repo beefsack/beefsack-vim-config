@@ -31,6 +31,7 @@ let g:airline_powerline_fonts = 1
 let g:indent_guides_enable_on_vim_startup=1
 
 " Unite
+let g:unite_redraw_hold_candidates = 50000
 noremap <Leader>f :Unite file_rec/async<CR>
 noremap <Leader>b :Unite neomru/file<CR>
 noremap <Leader>t :Unite outline<CR>
