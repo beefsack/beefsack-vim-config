@@ -22,6 +22,7 @@ set guioptions-=T
 set guioptions-=L
 set timeoutlen=1000 ttimeoutlen=0
 set clipboard=unnamedplus
+set lazyredraw
 
 " airline
 let g:airline#extensions#tabline#enabled = 1
